@@ -1,0 +1,30 @@
+.main {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .5em;
+}
+
+.menu {
+  background-color: black;
+}
+
+.menu button {
+  margin-top: .5em;
+  margin-left: .5em;
+}
+
+.message {
+  padding: .5em;
+  border: 1px solid;
+  background-color: aliceblue;
+}
+
+.new-component > * {
+  margin-bottom: .5em;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+}

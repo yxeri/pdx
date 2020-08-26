@@ -1,0 +1,27 @@
+.games-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search {
+  margin-bottom: .5em;
+}
+
+.games {
+  min-width: 10em;
+  max-width: 25%;
+  height: 100%;
+  margin-right: .5em;
+}
+
+.dlcs {
+  min-width: 10em;
+  max-width: calc(75% - 5.5em);
+  overflow-wrap: anywhere;
+}
+
+.dlc {
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
